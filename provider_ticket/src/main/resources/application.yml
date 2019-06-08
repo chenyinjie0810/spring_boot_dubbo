@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: provider_ticket
+  registry:
+#    address: zookeeper://192.168.0.103:2181
+    address: zookeeper://192.168.2.126:2181
+  scan:
+    base-packages: com.chenyinjie.ticket.service
